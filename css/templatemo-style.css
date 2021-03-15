@@ -274,11 +274,13 @@ p, address {
   font-size: 2.2rem;
   font-weight: 400;
   margin-bottom: 5px;
+  color: #000000;
 }
 
 .tm-site-description {
   font-size: 1.1rem;
-  font-weight: 400;
+  color: #000000;
+  font-weight: bold;
 }
 
 .tm-nav {
@@ -303,13 +305,15 @@ p, address {
   .tm-nav-li {
     padding-right: 15px;
     padding-left: 15px;
+    
   }
 }
 
 .tm-nav-link {
-  color: white;
+  color: #000000;
   text-decoration: none;
   padding-bottom: 10px;
+  font-weight: bold;
 }
 
 .tm-nav-link.active,
