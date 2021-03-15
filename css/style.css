@@ -1,0 +1,32 @@
+.tm-section-title {
+    text-align: center !important;
+}
+
+.text-center {
+    text-align: justify;
+}
+
+.info-mais ul{
+    list-style: none !important;
+    text-align: center;
+}
+
+.info-mais ul li {
+    margin-bottom: 15px;
+}
+
+.info-mais ul li a{
+    text-decoration: none;
+    color: #626364;
+}
+
+.info-mais ul li a:hover {
+    font-size: 18px;
+    color: #2F956D;
+}
+
+.footer-drot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
