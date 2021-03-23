@@ -27,10 +27,23 @@
 
 body {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.menu ul {
-  max-width: 80%;
+.menu {
+  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,20 +53,106 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 2rem auto;
+  margin-top: 3rem;
 }
 
-.menu ul li {
-  color: #9195A3;
-}
-
-.menu ul li img {
+.menu img {
   width: 4rem;
 }
 
-.menu ul .logoWrited {
+.menu ul {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu h3 {
+  width: 3rem;
+  font-size: 3rem;
   font-weight: 400;
-  font-size: 2rem;
-  color: #000;
+}
+
+.landingpage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landingpage img {
+  width: 55rem;
+}
+
+.landingpage .landing-info {
+  width: 70%;
+  margin-left: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.landingpage .landing-info h1 {
+  font-size: 10rem;
+  line-height: 8rem;
+}
+
+.landingpage .landing-info p {
+  font-size: 1.6rem;
+}
+
+.landingpage .landing-beneficts {
+  width: 60%;
+  background: #2784FF;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 2rem;
+  margin-top: 5rem;
+}
+
+.landingpage .landing-beneficts li {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.landingpage .landing-beneficts li img {
+  width: 3rem;
+  height: 3rem;
 }
 /*# sourceMappingURL=index.css.map */

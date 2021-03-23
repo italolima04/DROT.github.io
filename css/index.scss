@@ -23,26 +23,74 @@
 }
 body{
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
 }
 .menu{
+  width: 80%;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-top: 3rem;
+  img{
+    width: 4rem;
+  }
   ul{
-    max-width: 80%;
-    display:flex;
+    width: 70%;
+    display: flex;
     justify-content:space-between;
-    align-items:center;
-    margin:2rem auto;
-    
+    align-items: center;
+  }
+  h3{
+    width:3rem;
+    font-size: 3rem;
+    font-weight: 400;
+  }
+}
+
+.landingpage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img{
+    width: 55rem;
+  }
+  .landing-info{
+    width: 70%;
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1{
+      font-size: 10rem;
+      line-height: 8rem;
+    }
+    p{
+      font-size:1.6rem;
+    }
+  }
+  .landing-beneficts{
+    width: 60%;
+    background: #2784FF;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius:  2rem;
+    margin-top: 5rem;
     li{
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      color:#fff;
       img{
-        width: 4rem;
+        width: 3rem;
+        height: 3rem;
       }
-      color: #9195A3;
     }
-    .logoWrited{
-      font-weight: 400;
-      font-size: 2rem;
-      color: #000;
-    }
-    
   }
 }
